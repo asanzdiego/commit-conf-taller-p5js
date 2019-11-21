@@ -6,7 +6,13 @@ Nosotros queremos hablar de **programar de forma creativa para crear arte**.
 
 En este taller queremos **iniciaros en el apasionante mundo del Creative Coding**. ¿Y qué mejor que iniciarse en este mundo que remangándose las mangas y poniendo las manos delante de un teclado a programar con fines estéticos y no funcionales? :-)
 
+## CommitConf 2019
+
 <https://www.koliseo.com/events/commit-2019/r4p/5106829466009600/agenda#/5690945286701056/5131030767861760>
+
+## Slides
+
+<http://bit.ly/creative-coding-2019>
 
 ## Ejemplos
 
