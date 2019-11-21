@@ -4,6 +4,7 @@ let mic;
 
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
+  userStartAudio();
   background(125);
   mic = new p5.AudioIn();
   mic.start();
