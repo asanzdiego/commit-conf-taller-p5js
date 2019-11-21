@@ -43,7 +43,8 @@ Empecé desarrollando aplicaciones web, hasta que di el salto a la docencia. Un 
 Programador creativo enfocado al desarrollo y la investigación de experiencias interactivas en áreas diversas tales como la visión artificial, el Arte Digital, los Videojuegos, las Visualizaciones de datos, la Realidad aumentada, el Video-mapping, o el prototipado de productos interactivos entre otros.
 
 [twitter](https://twitter.com/carlesgutierrez) |
-[web](http://carlesgutierrez.github.io/)
+[web](http://carlesgutierrez.github.io/) |
+[github](https://github.com/carlesgutierrez)
 
 **Javi Aránega**
 
@@ -53,4 +54,5 @@ Trabajo como Creative Technologist y aunque soy ingeniero llevo años mezclando 
 
 [twitter](https://twitter.com/javiaranega) |
 [web](http://www.javiaranega.com) |
+[github](https://github.com/jaranega) |
 [linkedin](https://www.linkedin.com/in/javiaranega/)
