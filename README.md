@@ -37,10 +37,9 @@ En este taller queremos **iniciaros en el apasionante mundo del Creative Coding*
 Empecé desarrollando aplicaciones web, hasta que di el salto a la docencia. Un día me dió por crear [HackathonLovers](http://hackathonlovers.com), una comunidad de amantes de los hackathones. Actualmente soy asesor técnico en el [servicio TIC de la Dirección General de Infraestructuras y Servicios de la Consejería de Educación e Innovación](http://www.madrid.org/es/transparencia/consejeria/servicio-tecnologias-informacion-y-comunicacion) de la Comunidad de Madrid. Además colaboro puntualmente como profesor en la [Universidad de Alcalá](https://www.uah.es) y como formador especializado en tecnologías de desarrollo en [Pronoide](http://www.pronoide.com)
 
 [twitter](https://twitter.com/asanzdiego) |
-[blog](https://www.asanzdiego.com) |
+[web](https://www.asanzdiego.com) |
 [github](https://github.com/asanzdiego) |
-[linkedin](https://www.linkedin.com/in/asanzdiego) |
-[slideshare](https://www.slideshare.net/asanzdiego)
+[linkedin](https://www.linkedin.com/in/asanzdiego)
 
 **Carles Gutierrez**
 
@@ -50,7 +49,8 @@ Programador creativo enfocado al desarrollo y la investigación de experiencias 
 
 [twitter](https://twitter.com/carlesgutierrez) |
 [web](http://carlesgutierrez.github.io/) |
-[github](https://github.com/carlesgutierrez)
+[github](https://github.com/carlesgutierrez) |
+[linkedin](https://www.linkedin.com/in/carlesgutierrez/)
 
 **Javi Aránega**
 
