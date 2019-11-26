@@ -12,6 +12,8 @@ En este taller queremos **iniciaros en el apasionante mundo del Creative Coding*
 
 ## Slides
 
+<a href="http://bit.ly/creative-coding-2019"><img src="./img/asanzdiego.jpg" alt="Slides del Taller de iniciación al Creative Coding"/></a>
+
 <http://bit.ly/creative-coding-2019>
 
 ## Ejemplos
