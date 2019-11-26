@@ -4,8 +4,8 @@ let mic;
 
 function setup() {
   createCanvas(window.screen.width, window.screen.height);
-  userStartAudio();
   background(125);
+  userStartAudio();
   mic = new p5.AudioIn();
   mic.start();
 }
@@ -19,8 +19,7 @@ function draw() {
   }
 
   let vol = mic.getLevel();
-  let ellipseWidth = number + vol*1000;
 
   fill(number);
-  ellipse(mouseX, mouseY, ellipseWidth, ellipseWidth);
+  ellipse(mouseX + random(-1, 1)*vol*100, mouseY + random(-1, 1)*vol*100, number, number);
 }
