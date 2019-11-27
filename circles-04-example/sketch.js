@@ -1,11 +1,12 @@
 let ellipseWidth = 0;
 let ellipseColor = 0;
 let deltaWidth = 1;
-let deltaColor = 1;
 let mic;
+let canvas;
+let wait = 0;
 
 function setup() {
-  createCanvas(window.screen.width-75, window.screen.height-150);
+  canvas = createCanvas(window.screen.width, window.screen.height);
   colorMode(HSB, 255);
   background(255);
   userStartAudio();
@@ -17,31 +18,34 @@ function draw() {
 
   if (mouseIsPressed) {
     ellipseWidth += deltaWidth;
-    ellipseColor += deltaColor;
+    ellipseColor += 1;
     if (ellipseWidth > 255) deltaWidth = -1;
     if (ellipseWidth < 1) deltaWidth = 1;
-    if (ellipseColor > 255) ellipseColor = 0
+    if (ellipseColor > 255) ellipseColor = 1;
   }
 
   if (keyIsPressed) {
 
-    if (keyCode === DELETE) {
+    if (keyCode === DELETE) { // borrar
       background(255);
     }
-    if (keyCode === UP_ARROW) {
+    if (keyCode === SHIFT) { // aumentar
       if (ellipseWidth < 255) ellipseWidth++; 
     }
-    if (keyCode === DOWN_ARROW) {
+    if (keyCode === CONTROL) { // disminuir
       if (ellipseWidth > 1) ellipseWidth--; 
     }
-    if (keyCode === LEFT_ARROW) {
+    if (keyCode === UP_ARROW) { // color
       if (ellipseColor < 255) ellipseColor++; 
-      else ellipseColor = 1
+      else ellipseColor = 1;
     }
-    if (keyCode === RIGHT_ARROW) {
-      if (ellipseColor > 1) ellipseColor--;
-      else ellipseColor = 255
+    if (key === 'g') { // guardar
+      if (wait++ === 1) saveCanvas(canvas, 'canvas', 'png');
+      else if (wait > 3) wait = 0;
     }
+    // BACKSPACE, DELETE, ENTER, RETURN, TAB, 
+    // ESCAPE, SHIFT, CONTROL, OPTION, ALT,
+    // UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW.
   }
 
   let vol = mic.getLevel();
